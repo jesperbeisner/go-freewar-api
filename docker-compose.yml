@@ -1,0 +1,8 @@
+version: '3.9'
+
+services:
+  web:
+    build: .
+    container_name: go-freewar-api-container
+    ports:
+      - '8050:8050'
